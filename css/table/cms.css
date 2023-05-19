@@ -264,6 +264,38 @@ td {
   padding-bottom: 4px;
 }
 
+/* select новый */
+
+.select-wrapper-row {
+  position: relative;
+}
+
+.select-wrapper-row::after {
+  content: "";
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  /* margin-top: -2px; */
+  pointer-events: none;
+  background-image: url("../../img/Polygon 3.svg");
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 5px;
+}
+
+select {
+  appearance: none;
+  width: 30px;
+  /* padding: 4px; */
+  /* border-color: #aaa; */
+  border: none;
+  background-color: inherit;
+  border-radius: 3px;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
 @media (max-width:1000px) {
   .container {
     padding: 0 20px;
