@@ -25,7 +25,7 @@
   width: 100vw;
   height: 100wh;
   background-color: rgba(0, 0, 0, 0.7);
-  pointer-events: none;
+  pointer-events: auto;
 
   /* left: 50%; */
   /* top: 50%; */
